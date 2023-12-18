@@ -67,3 +67,66 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* esercizio 1 */
+.ex-1-square:hover{
+    background-color: red;
+
+    transition: background-color 2s;
+}
+/* fine esercizio 1 */
+
+
+
+/* esercizio 2 */
+.ex-2-square:active{
+    width: 500px;
+    height: 300px;
+
+    transition: width 3s, height 3s;
+}
+/* fine esercizio 2 */
+
+
+
+/* esercizio 3 */
+.ex-3-square:hover{
+    border-radius: 50%;
+
+    transition: border-radius 2s;
+}
+/* fine esercizio 3 */
+
+
+
+/* esercizio 4 */
+.ex-4-square:hover{
+    background-color: rgba(0, 0, 0, 0);
+
+    transition: background-color 3s;
+}
+/* fine esercizio 4 */
+
+
+
+/* esercizio 5 */
+.ex-5-square:hover{
+    width: 200px;
+    height: 200px;
+
+    transition: width 2s, height 2s;
+}
+
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+
+    transition: width 2s, height 2s;
+}
+/* fine esercizio 5 */
+
+
+
+
+
