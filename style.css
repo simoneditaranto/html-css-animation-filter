@@ -128,5 +128,51 @@
 
 
 
+/* esercizio 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* fine esercizio 6 */
+
+
+
+/* esercizio 7 */
+.ex-7-img:hover{
+    filter: opacity(50%);
+    filter: saturate(30%);
+
+    transition: filter 2s;
+}
+/* fine esercizio 7 */
+
+
+
+/* esercizio 8 */
+.ex-8-img:hover{
+    filter: opacity(50%);
+    filter: saturate(30%);
+
+    border-radius: 20px;
+
+    transition: filter 2s, border-radius 3s;
+}
+/* fine esercizio 8 */
+
+
+
+/* esercizio 9 */
+.ex-9-img:hover{
+    filter: opacity(50%);
+    filter: saturate(30%);
+    scale: 0.5;
+
+    border-radius: 20px;
+
+    transition: filter 2s, border-radius 3s, scale 5s;
+}
+/* fine esercizio 9 */
+
+
+
 
 
